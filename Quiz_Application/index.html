@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!--=================== UNICONS ========================================================================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  
+ <!--=================== FONT AWESOME ========================================================================-->
+     <script src="https://kit.fontawesome.com/18e6b59a09.js" crossorigin="anonymous"></script>
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+
+    <title>Quiz App</title>
+
+    
+</head>
+<body>
+
+<div class="responsive">
+
+
+<!-- Home page -->
+    <div class="myQuizApp">
+        <div class="img">
+            <img src="img/questions.svg" alt="">
+        </div>
+        <div class="text">
+            <h3>Quiz App with Fixed time</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet adipisci nemo voluptatum quo ratione. </p>
+
+            <h3>Quiz App with Fixed time</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, maiores!</p>
+            
+        </div>
+        <div class="Start_Quiz" id="Start_Quiz">
+            <button>Start Quiz</button>
+        </div>
+    </div> 
+
+
+ <!-- Rules Page -->
+    <div class="RulesBox">
+        <div class="RulesTitle">
+           <h3>Some Rules of this Quiz</h3>
+        </div>
+        <div class="RulseList">
+            <ol>
+                <li>You will have <span style="color: #007bff;">only 15</span> seconds per each Question.</li>
+                <li>Once you select your Answer, it can't be undone.</li>
+                <li>You can't select any option once time goes off.</li>
+                <li>You can't exit from the Quiz while you're playing.</li>
+                <li>You will get <span style="color: #007bff;">5 marks</span> per each correct answer</li>
+                
+            </ol>
+        </div>
+
+        <div class="buttons">
+            <button class="ExitBtn" id="ExitBtn">Exit Quiz</button>
+            <button class="ContinueBtn" id="ContinueBtn" >Continue</button>
+        </div>
+    </div>
+
+    
+    
+
+
+     <div class="QuestionSec">
+
+         <header class="QuestionHeader">
+            <div class="qTitle">Running Exam</div>
+            
+            <div class="TimeCount">
+                <div class="TimeLeft">Time Left</div>
+                <div class="Seconds"> 15 </div>
+            </div>
+            
+            <div class="TimeLine"></div>
+            <div class="TimeLineCounter"></div>
+         </header>
+
+         <div class="section">
+
+
+             <div class="QuestionTitle" >
+                 <!-- <span>1. What does HTML Stand for?</span> -->
+                
+            </div>
+
+            <div class="TimesUp">Sorry, Your time is up ! </div>
+
+             <div class="MyOptions">
+
+                 
+
+                
+
+             </div>
+        </div>
+
+        <footer>
+            <div class="Total_Que">
+                <!-- <p>1 of 5 Question</p> -->
+            </div>
+            <button class="NextBtn">Next Que</button>
+        </footer>
+
+
+     </div>
+
+     
+    <div class="resultBox">
+        <div class="resultImg">
+            <img src="img/winner.svg" alt="">
+        </div>
+
+     <div class="ResultDashboard">
+
+        <div class="complete_text">You Have Finished This Exam</div>
+        <div class="score_text">
+            
+        </div>
+
+    </div>
+
+        <div class="result_Buttons">
+            <button class="re_playBtn">Replay</button>
+            <button class="quitBtn"> Quit Quiz</button>
+        </div>
+
+    </div> 
+     
+
+ </div>   
+
+  <script src="JS/script.js"></script>
+  <script src="JS/question.js" ></script>
+
+</body>
+</html>
